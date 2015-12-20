@@ -9,7 +9,7 @@ RUNNING_PATH = sys.path[0] + os.sep
 
 
 def make_path_file():
-    packages_path = '/usr/lib/python2.7/dist-packages' + os.sep
+    packages_path = '/usr/lib/python2.7' + os.sep
     print 'check path: %s' % packages_path
     if os.path.isdir(packages_path):
         path_filename = packages_path + 'ZLCommon.pth'
